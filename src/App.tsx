@@ -4,7 +4,6 @@ import QuestionCard from "./components/QuestionCard";
 import { fetchQuizQuestions } from "./components/API";
 // Types
 import { Difficulty, QuestionState } from "./components/API";
-import { preProcessFile } from "typescript";
 //Styles
 import { GlobalStyle, Wrapper } from "./App.styles";
 export type AnswerObject = {
